@@ -4,7 +4,7 @@ services:
 
 # run before executing test cases or deploy project
 before_install:
-  - docker build -t pawan2155/docker-react -f Dockerfile . 
+  - docker build -t pawan2155/docker-react -f Dockerfile.dev . 
 
 # series of commands to run our test suit 
 script:
