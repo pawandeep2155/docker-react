@@ -8,4 +8,5 @@ RUN npm run build
 
 FROM nginx
 EXPOSE 8081
+# expose port 8081
 COPY --from=builder /app/build /usr/share/nginx/html
